@@ -21,7 +21,7 @@
 " press zM , in normal mode to CLOSE all folds
 
 " Already been loaded? ~~
-if exists('Tb_loaded') || &diff == 1 || has('gui_running')
+if exists('Tb_loaded') || &diff == 1
     finish
 else
       let Tb_loaded= 1
